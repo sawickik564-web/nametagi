@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "pl.nametagi.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["LivingEntityRendererMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

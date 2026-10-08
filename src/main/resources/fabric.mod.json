@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "nametagi",
+  "version": "${version}",
+  "name": "Nametagi",
+  "description": "Nametagi graczy widoczne przez sciany z ustawianym zasiegiem.",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.nametagi.NametagMod"] },
+  "mixins": ["nametagi.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
